@@ -33,7 +33,8 @@ The output directory will be populated with files:
 
 See doc of `CreateDatasetFiles()` for complete list of files and description.
 """
-
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
 import pickle
 import copy
 import random
